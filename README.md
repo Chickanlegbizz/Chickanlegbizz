@@ -551,3 +551,11 @@
 "FIntRoact17Rollout11": 100,
 "DFFlagSendAllPhysicsPackets": true
 }
+
+    StarterGui:SetCore("SendNotification", {
+        Title = "Loaded !",
+        Text = "You may press "Okay" now.",
+        Duration = 100,
+        Button1 = "Okay"
+    })
+end
