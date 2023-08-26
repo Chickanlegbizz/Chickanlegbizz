@@ -19,7 +19,6 @@
 	    Button1 = "ok "; -- Optional, makes a button appear with the given text that, when clicked, fires the Callback if it's given
             Button2 = "ok"; -- Optional, makes another button appear with the given text that, when clicked, fires the Callback if it's given
 })
-end
 
 
 {
