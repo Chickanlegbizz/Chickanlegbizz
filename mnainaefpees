@@ -1,6 +1,4 @@
-loadstring(game:HttpGet(('https://raw.githubusercontent.com/Chickanlegbizz/Chickanlegbizz/main/README.md')))()
 
-end
 
 local function callback(text)
     if text == "ok " then
