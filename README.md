@@ -1,23 +1,22 @@
-
-	local function callback(text)
-	    if text == "ok " then
-	        print("yes")
-	    elseif text == "ok" then
-	        print("yes")
-	    end
-	end
-	 
-	local bindableFunction = Instance.new("BindableFunction")
-	bindableFunction.OnInvoke = callback
-	 
-	game.StarterGui:SetCore("SendNotification", {
-	    Title = "LOADED"; -- Required. Has to be a string!
-	    Text = "! ! !"; -- Required. Has to be a string!
-	    Icon = ""; -- Optional, defaults to "" (no icon)
-	    Duration = 5; -- Optional, defaults to 5 seconds
-	    Callback = bindableFunction; -- Optional, gets invoked with the text of the button the user pressed
-	    Button1 = "ok "; -- Optional, makes a button appear with the given text that, when clicked, fires the Callback if it's given
-            Button2 = "ok"; -- Optional, makes another button appear with the given text that, when clicked, fires the Callback if it's given
+local function callback(text)
+    if text == "ok " then
+        print("yes")
+    elseif text == "ok" then
+        print("yes")
+    end
+end
+ 
+local bindableFunction = Instance.new("BindableFunction")
+bindableFunction.OnInvoke = callback
+ 
+game.StarterGui:SetCore("SendNotification", {
+    Title = "LOADED"; -- Required. Has to be a string!
+    Text = "! ! !"; -- Required. Has to be a string!
+    Icon = ""; -- Optional, defaults to "" (no icon)
+    Duration = 5; -- Optional, defaults to 5 seconds
+    Callback = bindableFunction; -- Optional, gets invoked with the text of the button the user pressed
+    Button1 = "ok "; -- Optional, makes a button appear with the given text that, when clicked, fires the Callback if it's given
+        Button2 = "ok"; -- Optional, makes another button appear with the given text that, when clicked, fires the Callback if it's given
 })
 
 
